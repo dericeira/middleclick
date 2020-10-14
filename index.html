@@ -64,11 +64,13 @@
 
         contact_button.onclick  = function() {
             ga('send', 'event', 'Click', 'Contact', 'app');
+            gtag('event','click',{'event_category':'Contact','event_label':'app'})
 
         }
 
         download_button.onclick = function() {
             ga('send', 'event', 'Click', 'Download', 'app');
+            gtag('event','click',{'event_category':'Download','event_label':'app'})
         }
 
         
